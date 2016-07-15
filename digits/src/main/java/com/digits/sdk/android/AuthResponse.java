@@ -19,7 +19,7 @@ package com.digits.sdk.android;
 
 import com.google.gson.annotations.SerializedName;
 
-class AuthResponse {
+public class AuthResponse {
     @SerializedName("phone_number")
     public String normalizedPhoneNumber;
     @SerializedName("login_verification_request_id")

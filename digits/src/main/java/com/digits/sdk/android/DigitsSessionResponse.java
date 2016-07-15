@@ -19,7 +19,7 @@ package com.digits.sdk.android;
 
 import com.google.gson.annotations.SerializedName;
 
-class DigitsSessionResponse {
+public class DigitsSessionResponse {
     @SerializedName("oauth_token")
     public String token;
     @SerializedName("oauth_token_secret")
